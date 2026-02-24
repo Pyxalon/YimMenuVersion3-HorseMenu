@@ -7,7 +7,7 @@
 #include "game/features/Features.hpp"
 #include "game/frontend/items/Items.hpp"
 #include "game/frontend/ColorCustomization.hpp"
-
+#include "game/frontend/submenus/Settings/LuaScripts.hpp"
 namespace YimMenu::Submenus
 {
 	// TODO: refactor this
