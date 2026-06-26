@@ -16,11 +16,6 @@
 #include <map>
 
 
-namespace YimMenu::Features
-{
-	BoolCommand _RecoveryEnabled("recoveryenabled", "Recovery Enabled", "Is the recovery feature enabled");
-}
-
 namespace YimMenu::Submenus
 {
 	void RenderAnimationsCategory()
