@@ -88,8 +88,8 @@ namespace YimMenu::Submenus
 		}
 	}
 		Network::Network() :
-		#define ICON_FA_USER "\xef\x80\x87"
-	    Submenu::Submenu("Self", ICON_FA_USER)
+		#define ICON_FA_ROUTE "\xef\x9b\xbf"
+	    Submenu::Submenu("Network", ICON_FA_ROUTE)
 	{
 		// TODO: this needs a rework
 		auto session = std::make_shared<Category>("Session");
